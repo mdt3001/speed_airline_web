@@ -5,20 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../front_end/home_page/home.html" />
     <link rel="stylesheet" href="../front_end/home_page/home.css" />
-    <link rel="stylesheet" href="../front_end/themify-icons/themify-icons.css">
+    <link
+      rel="stylesheet"
+      href="../front_end/themify-icons/themify-icons.css"
+    />
     <title>Web Design Mastery | Flivan</title>
   </head>
   <body>
     <nav>
       <div class="nav__logo">SPEED</div>
       <ul class="nav__links">
-          <li class="link"><a href="#">Home</a></li>
-          <li class="link"><a href="#">About</a></li>
+        <li class="link"><a href="#">Home</a></li>
+        <li class="link"><a href="#">About</a></li>
         <li class="link"><a href="#">My fights</a></li>
         <li class="link"><a href="#">My tickets</a></li>
         <li class="link"><a href="#">Feedback</a></li>
       </ul>
-      <button class="btn">Contact</button>
     </nav>
     <header class="section__container header__container">
       <h1 class="section__header">Find And Book<br />A Great Experience</h1>
@@ -32,47 +34,44 @@
         <span>First Class</span>
         <span>Premium Economy</span>
       </div>
-      <form>
-        <div class="form__group">
-          <span><i class="ri-map-pin-line"></i></span>
-          <div class="input__content">
-            <div class="input__group">
-              <input type="text" />
-              <label>From</label>
+      <div class="wrapper">
+        <form action="" method="post">
+          <div class="form__group">
+            <span><i class="ri-map-pin-line"></i></span>
+            <div class="input__content">
+              <div class="input__group">
+                <input type="text" name="from" />
+                <label>From</label>
+              </div>
+              <p>Origin</p>
             </div>
-            <p>Origin</p>
           </div>
-        </div>
-        <div class="form__group">
-          <span><i class="ri-user-3-line"></i></span>
-          <div class="input__content">
-            <div class="input__group">
-              <input type="text" />
-              <label>To</label>
+          <div class="form__group">
+            <span><i class="ri-user-3-line"></i></span>
+            <div class="input__content">
+              <div class="input__group">
+                <input type="text" name="to" />
+                <label>To</label>
+              </div>
+              <p>Destination</p>
             </div>
-            <p>Destination</p>
           </div>
-        </div>
-        <div class="form__group">
-          <span><i class="ri-calendar-line"></i></span>
-          <div class="input__content">
-            <div class="input__group">
-              <input type="date" />
+          <div class="form__group">
+            <span><i class="ri-calendar-line"></i></span>
+            <div class="input__content">
+              <div class="input__group">
+                <input type="text" name="date" />
+              </div>
+              <p>Departure</p>
             </div>
-            <p>Departure</p>
           </div>
-        </div>
-        <div class="form__group">
-          <span><i class="ri-calendar-line"></i></span>
-          <div class="input__content">
-            <div class="input__group">
-              <input type="date" />
-            </div>
-            <p>Return</p>
-          </div>
-        </div>
-        <button class="btn"><i class="ti-search"></i></button>
-      </form>
+          <button type="submit" class="btn" name="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </section>
+
     </section>
 
     <section class="section__container plan__container">
@@ -119,7 +118,7 @@
           <h2 class="section__header">
             Travel to make memories all around the world
           </h2>
-          <button class="view__all">View All</button>
+          <!-- <button class="view__all">View All</button> -->
         </div>
         <div class="memories__grid">
           <div class="memories__card">
@@ -152,8 +151,14 @@
 
     <section class="section__container lounge__container">
       <div class="lounge__image">
-        <img src="../front_end/images/home_page_img/lounge-1.jpg" alt="lounge" />
-        <img src="../front_end/images/home_page_img/lounge-2.jpg" alt="lounge" />
+        <img
+          src="../front_end/images/home_page_img/lounge-1.jpg"
+          alt="lounge"
+        />
+        <img
+          src="../front_end/images/home_page_img/lounge-2.jpg"
+          alt="lounge"
+        />
       </div>
       <div class="lounge__content">
         <h2 class="section__header">Unaccompanied Minor Lounge</h2>
@@ -194,33 +199,57 @@
       <h2 class="section__header">Best travellers of the month</h2>
       <div class="travellers__grid">
         <div class="travellers__card">
-          <img src="../front_end/images/home_page_img/traveller-1.jpg" alt="traveller" />
+          <img
+            src="../front_end/images/home_page_img/traveller-1.jpg"
+            alt="traveller"
+          />
           <div class="travellers__card__content">
-            <img src="../front_end/images/home_page_img/client-1.jpg" alt="client" />
+            <img
+              src="../front_end/images/home_page_img/client-1.jpg"
+              alt="client"
+            />
             <h4>Emily Johnson</h4>
             <p>Dubai</p>
           </div>
         </div>
         <div class="travellers__card">
-          <img src="../front_end/images/home_page_img/traveller-2.jpg" alt="traveller" />
+          <img
+            src="../front_end/images/home_page_img/traveller-2.jpg"
+            alt="traveller"
+          />
           <div class="travellers__card__content">
-            <img src="../front_end/images/home_page_img/client-2.jpg" alt="client" />
+            <img
+              src="../front_end/images/home_page_img/client-2.jpg"
+              alt="client"
+            />
             <h4>David Smith</h4>
             <p>Paris</p>
           </div>
         </div>
         <div class="travellers__card">
-          <img src="../front_end/images/home_page_img/traveller-3.jpg" alt="traveller" />
+          <img
+            src="../front_end/images/home_page_img/traveller-3.jpg"
+            alt="traveller"
+          />
           <div class="travellers__card__content">
-            <img src="../front_end/images/home_page_img/client-3.jpg" alt="client" />
+            <img
+              src="../front_end/images/home_page_img/client-3.jpg"
+              alt="client"
+            />
             <h4>Olivia Brown</h4>
             <p>Singapore</p>
           </div>
         </div>
         <div class="travellers__card">
-          <img src="../front_end/images/home_page_img/traveller-4.jpg" alt="traveller" />
+          <img
+            src="../front_end/images/home_page_img/traveller-4.jpg"
+            alt="traveller"
+          />
           <div class="travellers__card__content">
-            <img src="../front_end/images/home_page_img/client-4.jpg" alt="client" />
+            <img
+              src="../front_end/images/home_page_img/client-4.jpg"
+              alt="client"
+            />
             <h4>Daniel Taylor</h4>
             <p>Malaysia</p>
           </div>
@@ -233,7 +262,6 @@
         <h2 class="section__header">Subscribe newsletter & get latest news</h2>
         <form class="subscribe__form">
           <input type="text" placeholder="Enter your email here" />
-          <button class="btn">Subscribe</button>
         </form>
       </div>
     </section>
